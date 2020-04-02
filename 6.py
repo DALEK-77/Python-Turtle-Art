@@ -1,5 +1,5 @@
 from turtle import *
-pensize(3)
+pensize(2)
 colors=["red","orange", "yellow", "green", "blue", "purple"]
 color("#F1F1F1")
 speed(10)
