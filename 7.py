@@ -3,7 +3,7 @@ import itertools as i
 t.shape('turtle')
 t.bgcolor('black')
 t.speed(0)
-colours = i.cycle(['red', 'orange', 'yellow' 'green', 'blue', 'purple', 'grey'])
+colours = i.cycle(['red', 'orange', 'yellow' 'green', 'blue', 'purple', 'grey', 'yellow', 'gold', 'orange', 'red', 'maroon', 'violet', 'magenta', 'purple', 'navy', 'blue', 'skyblue', 'cyan', 'turquoise', 'lightgreen', 'green', 'darkgreen', 'chocolate', 'brown', 'gray', 'white'])
 def draw(size, angle, shift, shape):
      t.pencolor(next(colours))
      next_shape = ''
